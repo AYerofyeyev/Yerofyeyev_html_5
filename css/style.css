@@ -1,0 +1,147 @@
+.container {
+  background: url('../img/background.png') no-repeat center;
+  height: 1028px;
+  margin: 0 auto;
+  width: 1215px;
+}
+
+/* NAV */
+nav {
+  background-color: #075291;
+  font-family: Tahoma;
+  font-size: 14px;
+  height: 36px;
+  padding-left: 400px;
+  position: relative;
+  text-align: center;
+  width: 815px;
+}
+
+nav
+a {
+  color: #60b5ed;
+  display: inline-block;
+  line-height: 36px;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+nav
+.messages {
+  color: #fff;
+  font-size: 14px;
+}
+
+.inventicon {
+  background: url('../img/devider1.png') no-repeat left, url('../img/inventicon.png') no-repeat center;
+  height: 30px;
+  margin-bottom: -10px;
+  width: 64px;
+}
+
+nav
+p {
+  color: #fff;
+  display: block;
+  float: right;
+  margin-right: 32px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+nav
+p:hover {
+  background: linear-gradient(to top, #2e7ac4, #50afdc);
+}
+
+.messages:hover {
+  background: linear-gradient(to top, #2e7ac4, #50afdc);
+}
+
+nav
+p
+a {
+  color: #fff;
+  margin: 0 -5px;
+  text-decoration: underline;
+}
+
+nav
+.menu:hover {
+  background-color: #4eabda;
+  color: #fff;
+}
+
+/* MAIN */
+
+main {
+  text-align: center;
+}
+
+main
+h1 {
+  background: rgba(15, 15, 15, .5);
+  color: #fff;
+  display:block;
+  font-family: Tahoma;
+  font-size: 24px;
+  line-height: 60px;
+  margin: 213px auto 2px;
+  width: 560px;
+}
+
+main
+form {
+  background: rgba(15, 15, 15, .5);
+  color: #ccc;
+  display: block;
+  font-family: Tahoma;
+  font-size: 14px;
+  margin: 0 auto;
+  padding-bottom: 19px;
+  padding-top: 20px;
+  width: 560px;
+}
+
+main
+form
+.type {
+  background: #0f0f0f;
+  border: 0;
+  border-bottom: 1px solid #494947;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 20px;
+  padding-left: 18px;
+  width: 258px;
+}
+
+main
+form
+p {
+  font-size: 11px;
+}
+
+main
+.type:hover {
+  background: #1b5288;
+  box-shadow: 0 0 3px 2px #4a83a6;
+}
+
+.check {
+  padding-left: 182px;
+}
+
+.button--create {
+  background: linear-gradient(to top, #2e7ac4, #50afdc);
+  border: 0;
+  color: #fff;
+  display: inline-block;
+  font-family: Tahoma;
+  font-size: 14px;
+  height: 35px;
+  margin-bottom: 22px;
+  margin-top: 22px;
+  width: 149px;
+}
