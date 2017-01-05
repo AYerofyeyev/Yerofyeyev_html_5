@@ -10,7 +10,7 @@
     <div class="container">
 
       <nav>
-        <p>Ola! <a href="#" class="choice">Entrar</a> ou <a href="#" class="choice">Cadastre-se</a></p>
+        <p>Ola! <a href="#" class="choice">Entrar</a> OU <a href="#" class="choice">Cadastre-se</a></p>
         <a href="#" class="menu">Meu YouBike</a>
         <a href="#" class="menu">Vender</a>
         <a href="#" class="menu">Forum</a>
@@ -22,14 +22,18 @@
 
       <main>
         <h1>Cadastre-se</h1>
-        <form class="" action="index.html" method="post">
+        <form class="fb" action="index.html" method="post">
+          <input type="submit" name="fb--login" value="" class="button--fb">
+        </form>
+        <form class="anketa" action="index.html" method="post">
+          <p class="ou">ou</p>
           <input type="text" name="first--name" value="" placeholder="First Name" required="" class="type"><br>
           <input type="text" name="last--name" value="" placeholder="Last Name" required="" class="type"><br>
           <input type="email" name="email" value="" placeholder="Email Address" required="" class="type"><br>
           <input type="password" name="password" value="" placeholder="Choose Password" required="" class="type"><br>
           <input type="password" name="comfirm--password" value="" placeholder="Password Confirm" required="" class="type"><br>
           <input type="checkbox" name="send--me" value="" class="check">Send me Youbike updates and tips<br>
-          <input type="submit" name="create" value="Create my Account" class="button--create"><br>
+          <input type="submit" name="acc--create" value="Create my Account" class="button--create"><br>
           <p>By clicking the button above, you agree to the Terms of Service<br>Xiew our Privacy Policy.</p>
         </form>
 
