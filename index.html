@@ -5,25 +5,57 @@
     <title>YouBike</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/8b95d5015c.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="wrapper">
 
       <nav>
-        <p>Ola! <a href="#" class="choice">Entrar</a> OU <a href="#" class="choice">Cadastre-se</a></p>
-        <a href="#" class="menu">Meu YouBike</a>
-        <a href="#" class="menu">Vender</a>
-        <a href="#" class="menu">Forum</a>
-        <a href="#" class="menu">Contato</a>
-        <a href="#" class="menu">Ajuda</a>
-        <a href="#" class="inventicon"></a>
-        <a href="#" class="messages">Minhas Ofertas</a>
+        <ul>
+          <li>
+            <a href="#" class="menu">Meu YouBike</a>
+          </li>
+          <li>
+            <a href="#" class="menu">Vender</a>
+          </li>
+          <li>
+            <a href="#" class="menu">Forum</a>
+          </li>
+          <li>
+            <a href="#" class="menu">Contato</a>
+          </li>
+          <li>
+            <a href="#" class="menu">Ajuda</a>
+          </li>
+          <li>
+            <a href="#" class="inventicon">
+              <i class="fa fa-flag fa-2x" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="messages">Minhas Ofertas</a>
+          </li>
+          <li>
+            <p>Ola! <a href="#" class="choice">Entrar</a> OU <a href="#" class="choice">Cadastre-se</a></p>
+          </li>
+        </ul>
       </nav>
 
       <main>
         <h1>Cadastre-se</h1>
         <form class="fb" action="index.html" method="post">
-          <input type="submit" name="fb--login" value="" class="button--fb">
+          <div class="button--fb">
+            <div class="fb--logo">
+              <a href="#" fb--link>
+                <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="button--fblogin">
+              <a href="#" class="fblogin--link">
+                Log in <span>with</span> Facebook
+              </a>
+            </div>
+          </div>
         </form>
         <form class="anketa" action="index.html" method="post">
           <p class="ou">ou</p>

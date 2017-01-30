@@ -1,20 +1,23 @@
-.container {
-  background: url('../img/background.png') no-repeat center;
-  height: 1028px;
-  margin: 0 auto;
-  width: 1215px;
+.wrapper {
+  background: url('../img/background.jpg') no-repeat center;
+  text-align: center;
 }
 
 /* NAV */
 nav {
   background-color: #075291;
+  display: inline-block;
   font-family: Tahoma;
   font-size: 14px;
   height: 36px;
-  padding-left: 400px;
   position: relative;
   text-align: center;
-  width: 815px;
+}
+
+nav
+li {
+  display: inline-block;
+  float: left;
 }
 
 nav
@@ -26,17 +29,23 @@ a {
   text-decoration: none;
 }
 
+.inventicon {
+  display: inline-block;
+  border-left: 1px solid #56a2dc;
+  height: 29px;
+  margin: 2px 0;
+  padding-top: 2px;
+  width: 64px;
+}
+
 nav
 .messages {
   color: #fff;
   font-size: 14px;
 }
 
-.inventicon {
-  background: url('../img/devider1.png') no-repeat left, url('../img/inventicon.png') no-repeat center;
-  height: 30px;
-  margin-bottom: -10px;
-  width: 64px;
+.fa-flag {
+  color: #fff;
 }
 
 nav
@@ -97,10 +106,59 @@ main
 }
 
 .button--fb {
-  background: url('../img/button--fb.png') no-repeat center;
-  border: 0;
+  position: relative;
+}
+
+.fb--logo {
+  display: inline-block;
+  float: left;
+  margin-left: 142px;
+  background: linear-gradient(#344066 0%, #2b4576 10%, #354d8b 50%, #3e5696 100%);
+  border-top: 1px solid #7789bb;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-right: 1px solid #223c6d;
   height: 35px;
-  width: 276px;
+  width: 37px;
+}
+
+.fb--link {
+  display: inline-block;
+  line-height: 35px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-facebook {
+    color: #fff;
+    padding-top: 11px;
+}
+
+.button--fblogin {
+  display: inline-block;
+  float: left;
+  margin-left: 0;
+  background: linear-gradient(#344066 0%, #2b4576 10%, #354d8b 50%, #3e5696 100%);
+  border-top: 1px solid #7789bb;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-left: 1px solid #4c64a2;
+  height: 35px;
+  width: 237px;
+}
+
+.fblogin--link {
+  display: inline-block;
+  line-height: 35px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fblogin--link
+span {
+  font-weight: normal;
 }
 
 main
