@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url('../fonts/HelveticaNeueCyr-Light.otf') format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url('../fonts/HelveticaNeueCyr-Bold.otf') format('opentype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url('../fonts/HelveticaNeueCyr-Italic.otf') format('opentype');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/HelveticaNeueCyr-BoldItalic.otf') format('opentype');
+  font-style: italic;
+  font-weight: bold;
+}
+
 .wrapper {
   background: url('../img/background.jpg') no-repeat center;
   text-align: center;
@@ -7,7 +35,7 @@
 nav {
   background-color: #075291;
   display: inline-block;
-  font-family: Tahoma;
+  font-family: 'HelveticaNeueCyr', Tahoma;
   font-size: 14px;
   height: 36px;
   position: relative;
@@ -100,7 +128,7 @@ h1 {
   background: rgba(15, 15, 15, .5);
   color: #fff;
   display: block;
-  font-family: Tahoma;
+  font-family: 'HelveticaNeueCyr', Tahoma;
   font-size: 24px;
   line-height: 60px;
   margin: 213px auto 2px;
@@ -150,6 +178,7 @@ main
   border-top: 1px solid #7789bb;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
+  font-family: 'HelveticaNeueCyr', Tahoma;
   border-left: 1px solid #4c64a2;
   height: 35px;
   width: 237px;
@@ -165,8 +194,14 @@ main
 }
 
 .fblogin--link
-span {
+.plaintext {
   font-weight: normal;
+}
+
+.fblogin--link
+.arrow {
+  font-family: 'HelveticaNeueCyr';
+
 }
 
 main
@@ -174,7 +209,7 @@ form {
   background: rgba(15, 15, 15, .5);
   color: #ccc;
   display: block;
-  font-family: Tahoma;
+  font-family: 'HelveticaNeueCyr', Tahoma;
   font-size: 14px;
   margin: -3px auto;
   padding-bottom: 19px;
@@ -208,7 +243,7 @@ main
 .ou {
   background: url('../img/devider2.png') no-repeat center;
   color: #999999;
-  font-family: Tahoma;
+  font-family: 'HelveticaNeueCyr', Tahoma;
   font-size: 14px;
   line-height: 16px;
   margin: -15px 0 30px;
@@ -230,7 +265,7 @@ main
   border: 0;
   color: #fff;
   display: inline-block;
-  font-family: Tahoma;
+  font-family: 'HelveticaNeueCyr', Tahoma;
   font-size: 14px;
   height: 35px;
   margin-bottom: 22px;
