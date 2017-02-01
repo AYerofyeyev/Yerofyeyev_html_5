@@ -34,22 +34,24 @@
 /* NAV */
 nav {
   background-color: #075291;
+  position: relative;
+}
+
+.menu {
   display: inline-block;
+  float: right;
+  padding-right: 21px;
   font-family: 'HelveticaNeueCyr', Tahoma;
   font-size: 14px;
-  height: 36px;
-  position: relative;
   text-align: center;
 }
 
-nav
 li {
   display: inline-block;
-  float: left;
+  float: right;
 }
 
-nav
-a {
+.menu--link {
   color: #60b5ed;
   display: inline-block;
   line-height: 36px;
@@ -69,6 +71,7 @@ a {
 nav
 .messages {
   color: #fff;
+    line-height: 36px;
   font-size: 14px;
 }
 
@@ -81,9 +84,6 @@ p {
   color: #fff;
   display: block;
   float: right;
-  margin-right: 32px;
-  padding: 0 10px;
-  text-align: center;
 }
 
 nav
@@ -97,24 +97,20 @@ p:hover {
   box-shadow: inset 0 0 1px 1px #60c8f9;
 }
 
-nav
-p
-a {
+.choice {
   color: #fff;
-  margin: 0 -5px;
   text-decoration: underline;
 }
 
-nav
-.menu:hover {
+.menu--link:hover {
   background-color: #4eabda;
   color: #fff;
 }
 
-nav
-.menu
-li:last-child {
-  margin-right: 21px;
+nav::after {
+  display: table;
+  content: '';
+  clear: both;
 }
 
 /* MAIN */
