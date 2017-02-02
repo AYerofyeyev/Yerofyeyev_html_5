@@ -48,63 +48,68 @@ nav {
 
 li {
   display: inline-block;
-  float: right;
 }
 
 .menu--link {
   color: #60b5ed;
   display: inline-block;
   line-height: 36px;
-  padding: 0 5px;
+  padding: 0 15px;
   text-decoration: none;
 }
 
-.inventicon {
-  display: inline-block;
-  border-left: 1px solid #56a2dc;
-  height: 29px;
-  margin: 2px 0;
-  padding-top: 2px;
-  width: 64px;
-}
-
-nav
-.messages {
-  color: #fff;
-    line-height: 36px;
-  font-size: 14px;
-}
-
-.fa-flag {
-  color: #fff;
-}
-
-nav
-p {
-  color: #fff;
-  display: block;
-  float: right;
-}
-
-nav
-p:hover {
-  background: linear-gradient(to top, #2e7ac4, #50afdc);
-  box-shadow: inset 0 0 1px 1px #60c8f9;
-}
-
-.messages:hover {
-  background: linear-gradient(to top, #2e7ac4, #50afdc);
-  box-shadow: inset 0 0 1px 1px #60c8f9;
-}
-
-.choice {
-  color: #fff;
-  text-decoration: underline;
-}
-
 .menu--link:hover {
-  background-color: #4eabda;
+    background-color: #4eabda;
+    color: #fff;
+}
+
+.menu--offers {
+    color: #fff;
+    display: inline-block;
+    line-height: 36px;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.menu--offers:hover {
+    background: linear-gradient(to top, #2e7ac4, #50afdc);
+    box-shadow: inset 0 0 1px 1px #60c8f9;
+}
+
+.menu--choice {
+  display: inline-block;
   color: #fff;
+  padding: 0 15px;
+}
+
+.choice--link {
+  display: inline-block;
+  color: #fff;
+  line-height: 36px;
+}
+
+.menu--choice:hover {
+    background: linear-gradient(to top, #2e7ac4, #50afdc);
+    box-shadow: inset 0 0 1px 1px #60c8f9;
+}
+
+.icon {
+  display: inline-block;
+  position: relative;
+  margin-right: 38px;
+}
+
+.icon--link{
+  display: inline-block;
+  position: absolute;
+  border-left: 1px solid #56a2dc;
+  margin: -20px 0 0 0;
+  padding-left: 15px;
+}
+
+.icon--link
+img {
+ margin: auto;
 }
 
 nav::after {
@@ -117,6 +122,7 @@ nav::after {
 
 main {
   text-align: center;
+  padding-top: 213px;
 }
 
 main
@@ -127,14 +133,17 @@ h1 {
   font-family: 'HelveticaNeueCyr', Tahoma;
   font-size: 24px;
   line-height: 60px;
-  margin: 213px auto 2px;
+  margin: 0 auto;
   width: 560px;
 }
 
-main
 .fb {
   display: inline-block;
-  margin: 0;
+  margin-top: 3px;
+  padding-top: 30px;
+  background: rgba(15, 15, 15, .5);
+  height: 44px;
+  width: 560px;
 }
 
 .button--fb {
@@ -185,7 +194,7 @@ main
   line-height: 35px;
   color: #fff;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -196,25 +205,23 @@ main
 
 .fblogin--link
 .arrow {
-  font-family: 'HelveticaNeueCyr';
-
+  font-family: Arial;
+  font-size: 16px;
+  margin-left: 24px;
 }
 
-main
-form {
+.anketa {
   background: rgba(15, 15, 15, .5);
   color: #ccc;
   display: block;
   font-family: 'HelveticaNeueCyr', Tahoma;
   font-size: 14px;
-  margin: -3px auto;
+  margin:-3px auto;
   padding-bottom: 19px;
   padding-top: 30px;
   width: 560px;
 }
 
-main
-form
 .type {
   background: #0f0f0f;
   border: 0;
@@ -228,25 +235,40 @@ form
   width: 258px;
 }
 
-main
 form
 p {
   font-size: 11px;
 }
 
-main
-.anketa
 .ou {
-  background: url('../img/devider2.png') no-repeat center;
   color: #999999;
   font-family: 'HelveticaNeueCyr', Tahoma;
   font-size: 14px;
   line-height: 16px;
-  margin: -15px 0 30px;
+  margin: 0 auto 32px;
   text-transform: uppercase;
 }
 
-main
+.ou::before {
+  border-top: 2px solid #666;
+  border-bottom: 2px solid #000;
+  height: 0;
+  width: 120px;
+  display: inline-block;
+  margin: 0 7px 2px 0;
+  content: '';
+}
+
+.ou::after {
+  border-top: 2px solid #666;
+  border-bottom: 2px solid #000;
+  height: 0;
+  width: 120px;
+  display: inline-block;
+  margin: 0 0 2px 7px;
+  content: '';
+}
+
 .type:hover {
   background: #1b5288;
   box-shadow: 0 0 3px 2px #4a83a6;
